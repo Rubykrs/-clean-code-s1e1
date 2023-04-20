@@ -35,7 +35,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .add-item-new-box {
@@ -133,7 +133,7 @@ title {
 }
 
 .input-task {
-  width: 226px
+  width: 226px;
 }
 
 .img-delete-button {
@@ -148,13 +148,13 @@ title {
 
 /* Completed */
 .title-task-complete {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .input-task {
-  display: none
+  display: none;
 }
 
 .list-schedule-edit.input-task {
