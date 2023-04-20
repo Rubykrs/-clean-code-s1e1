@@ -100,7 +100,7 @@ title {
 }
 
 /* New Task */
-.add-item-new-title {
+.add-item-new__title {
   display: block;
   margin: 0 0 20px;
 }
@@ -138,18 +138,18 @@ title {
   width: 226px;
 }
 
-.img-delete-button {
+.img-delete__button {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.img-delete-button:hover {
+.img-delete__button:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.title-task-complete {
+.title-task__complete {
   text-decoration: line-through;
   color: #888;
 }
@@ -159,13 +159,13 @@ title {
   display: none;
 }
 
-.list-schedule-edit
+.list-schedule__edit
 .input-task {
   display: inline-block;
   width: 224px
 }
 
-.list-schedule-edit
+.list-schedule__edit
 .title-task {
   display: none;
 }
